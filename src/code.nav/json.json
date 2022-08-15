@@ -31,9 +31,7 @@
         },
         "reviewerId": "21ded5cb5ff59ad503fd845d6375ccf7",
         "shareNum": 0,
-        "tags": [
-          "教程"
-        ],
+        "tags": ["教程"],
         "userId": "058dfefe62efb6ce1433a3497b67ebe6",
         "viewNum": 6
       },
@@ -64,12 +62,7 @@
         },
         "reviewerId": "21ded5cb5ff59ad503fd845d6375ccf7",
         "shareNum": 0,
-        "tags": [
-          "教程",
-          "后端",
-          "网页",
-          "文档"
-        ],
+        "tags": ["教程", "后端", "网页", "文档"],
         "userId": "28ee4e3e60c3d8c9219be4b722d36110",
         "viewNum": 71
       },
@@ -100,13 +93,7 @@
         },
         "reviewerId": "21ded5cb5ff59ad503fd845d6375ccf7",
         "shareNum": 0,
-        "tags": [
-          "Javascript",
-          "前端",
-          "教程",
-          "jQuery",
-          "Bootstrap"
-        ],
+        "tags": ["Javascript", "前端", "教程", "jQuery", "Bootstrap"],
         "userId": "0ab5303b62f0649915a85241371dc258",
         "viewNum": 147
       },
@@ -137,12 +124,7 @@
         },
         "reviewerId": "21ded5cb5ff59ad503fd845d6375ccf7",
         "shareNum": 0,
-        "tags": [
-          "React",
-          "教程",
-          "前端",
-          "B站"
-        ],
+        "tags": ["React", "教程", "前端", "B站"],
         "userId": "0ab5303b62f0649915a85241371dc258",
         "viewNum": 91
       },
@@ -172,11 +154,7 @@
         },
         "reviewerId": "21ded5cb5ff59ad503fd845d6375ccf7",
         "shareNum": 0,
-        "tags": [
-          "书籍",
-          "Git",
-          "教程"
-        ],
+        "tags": ["书籍", "Git", "教程"],
         "userId": "21ded5cb5ff59ad503fd845d6375ccf7",
         "viewNum": 82
       },
@@ -206,10 +184,7 @@
         },
         "reviewerId": "21ded5cb5ff59ad503fd845d6375ccf7",
         "shareNum": 0,
-        "tags": [
-          "C语言",
-          "教程"
-        ],
+        "tags": ["C语言", "教程"],
         "userId": "21ded5cb5ff59ad503fd845d6375ccf7",
         "viewNum": 59
       },
@@ -240,11 +215,7 @@
         },
         "reviewerId": "21ded5cb5ff59ad503fd845d6375ccf7",
         "shareNum": 1,
-        "tags": [
-          "Python",
-          "人工智能",
-          "教程"
-        ],
+        "tags": ["Python", "人工智能", "教程"],
         "userId": "058dfefe62e115500f7d3d69135a7cbd",
         "viewNum": 138
       },
@@ -275,12 +246,7 @@
         },
         "reviewerId": "21ded5cb5ff59ad503fd845d6375ccf7",
         "shareNum": 0,
-        "tags": [
-          "教程",
-          "网页",
-          "前端",
-          "PHP"
-        ],
+        "tags": ["教程", "网页", "前端", "PHP"],
         "userId": "b69f67c062dfde750c84563c2f596a59",
         "viewNum": 223
       },
@@ -311,12 +277,7 @@
         },
         "reviewerId": "21ded5cb5ff59ad503fd845d6375ccf7",
         "shareNum": 0,
-        "tags": [
-          "前端",
-          "教程",
-          "网页",
-          "游戏"
-        ],
+        "tags": ["前端", "教程", "网页", "游戏"],
         "userId": "17e3426e61e30b0e06a5786539e0f5dc",
         "viewNum": 180
       },
@@ -347,12 +308,7 @@
         },
         "reviewerId": "21ded5cb5ff59ad503fd845d6375ccf7",
         "shareNum": 0,
-        "tags": [
-          "教程",
-          "阿里",
-          "云计算",
-          "云服务"
-        ],
+        "tags": ["教程", "阿里", "云计算", "云服务"],
         "userId": "0a4ec1f962cfe2af1049407755c5f25a",
         "viewNum": 166
       },
@@ -383,11 +339,7 @@
         },
         "reviewerId": "21ded5cb5ff59ad503fd845d6375ccf7",
         "shareNum": 0,
-        "tags": [
-          "项目源码",
-          "教程",
-          "网页"
-        ],
+        "tags": ["项目源码", "教程", "网页"],
         "userId": "d2fe6f206257da2a06b49d284a5c1891",
         "viewNum": 413
       },
@@ -418,10 +370,7 @@
         },
         "reviewerId": "21ded5cb5ff59ad503fd845d6375ccf7",
         "shareNum": 20,
-        "tags": [
-          "教程",
-          "菜鸟教程"
-        ],
+        "tags": ["教程", "菜鸟教程"],
         "userId": "ca780ad562887bf003e29a6109f2aca4",
         "viewNum": 275
       }
