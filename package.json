@@ -21,7 +21,10 @@
   "dependencies": {
     "aikey": "^1.0.2",
     "axios": "^1.3.4",
+    "csv-parser": "^3.0.0",
     "node-fetch": "^3.2.10",
-    "prettier": "^2.7.1"
+    "node-xlsx": "^0.21.2",
+    "prettier": "^2.7.1",
+    "x-crawl": "^5.1.0"
   }
 }
