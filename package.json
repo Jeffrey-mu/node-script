@@ -22,6 +22,7 @@
     "aikey": "^1.0.2",
     "axios": "^1.3.4",
     "csv-parser": "^3.0.0",
+    "mysql": "^2.18.1",
     "node-fetch": "^3.2.10",
     "node-xlsx": "^0.21.2",
     "prettier": "^2.7.1",
