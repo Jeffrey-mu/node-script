@@ -3,19 +3,20 @@ import https from 'https';
 import { db } from '../db/index.js'
 let data = JSON.parse(fs.readFileSync('./feed.json').toString())
 let filter = []
-let index = 2000
+let index = 0
 let allTypes
 
 db('select * from game_type', [], async function (result, fields) {
   allTypes = result.map(item => ({ id: item.id, name: item.name }))
   await job()
 })
-console.log(data.length);
+
 
 function job() {
+  console.log(data[index].title);
   return new Promise((res, rej) => {
     db(`select * from data_pool where data_type_id = "2" AND main_title = "${data[index].title}"`, [], function (result, fields) {
-      if (!data.length) {
+      if (!result.length) {
         data[index].game_type_id = allTypes.find(item => item.name === data[index].category)?.id || 0
         filter.push(data[index])
         console.log(index);
@@ -43,8 +44,8 @@ function job() {
 
 function saveImg(imageUrl, filename) {
   https.get(imageUrl, (response) => {
-    if (createFolderIfNotExists('./images/')) return
-    const fileStream = fs.createWriteStream('./images/' + filename + '.jpg');
+    if (createFolderIfNotExists('./newimg/')) return
+    const fileStream = fs.createWriteStream('./newimg/' + filename + '.jpg');
     response.pipe(fileStream);
     fileStream.on("finish", () => {
       console.log(`File saved as ${filename}`);
