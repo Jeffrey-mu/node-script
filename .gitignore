@@ -3,3 +3,9 @@ config/
 .DS_Store
 src/db
 src/cs/images
+*.docx
+*.pdf
+*.jpg
+*.xlsx
+kids
+config.js

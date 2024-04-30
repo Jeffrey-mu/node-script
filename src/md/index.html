@@ -1,0 +1,67 @@
+<div class="group">
+  <input required="" type="text" class="input">
+  <span class="highlight"></span>
+  <span class="bar"></span>
+  <label>Name</label>
+</div>
+<style>
+  * {
+    transition: .2s;
+  }
+
+  .group {
+    position: relative;
+    width: 200px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  label {
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    font-size: 20px;
+    color: gray;
+  }
+
+  p~span {
+    color: red;
+  }
+
+  input {
+    width: 100%;
+    padding: 0 10px;
+    outline: none;
+    height: 30px;
+    border: none;
+
+  }
+
+  .highlight {
+    border-bottom: 1px solid rgb(114, 114, 114);
+    width: 100%;
+  }
+
+  .bar {
+    width: 0px;
+    border-bottom: 3px solid rgb(58, 58, 228);
+    margin-top: -1.5px;
+  }
+
+  .input:focus~.bar {
+    width: 100%;
+  }
+
+  .input:focus~label,
+  .input:valid~label {
+    bottom: 30px;
+    font-size: 14px;
+    color: rgb(58, 58, 228);
+  }
+</style>
+<style>
+
+</style>
