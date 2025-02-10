@@ -16,7 +16,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "aikey": "^1.0.2",
@@ -28,6 +29,7 @@
     "mysql": "^2.18.1",
     "node-fetch": "^3.2.10",
     "node-xlsx": "^0.21.2",
+    "ollama": "^0.5.12",
     "prettier": "^2.7.1",
     "puppeteer": "^22.4.1",
     "x-crawl": "^5.1.0"
